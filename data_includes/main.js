@@ -1,7 +1,7 @@
 PennController.ResetPrefix(null);
 
 
-Template("JND_test.csv",row =>
+Template("JND_test.csv",row => 
 newTrial("test",
     newImage("Image1",row.Image1)
     .settings.size(640, 360)
